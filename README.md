@@ -21,9 +21,9 @@ This code is written in MATLAB, and implements the DASC descriptor [[website](ht
 - iter: for recursive filter (RF) [4]
 
 ## Input and Output
-- Input: input image 1                (e.g., 'img1.png')
+- Input: input image 1                (e.g., 'img1.png'),
          input image 2                (e.g., 'img2.png')
-- Output: warped image from image 2	(e.g., 'warp2.png')
+- Output: warped image from image 2	(e.g., 'warp2.png'),
           flow result             	(e.g., 'flow.png')
   
 # Notes
