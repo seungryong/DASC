@@ -12,19 +12,19 @@ This code is written in MATLAB, and implements the DASC descriptor [[website](ht
 3) start main.m
 
 ## Parameters
-M_half: half size of large window M
-N_half: half size of large window N 
-epsil: epsilon for FastGuidedFilter [3] 
-downSize: downsize factor s for FastGuidedFilter [3]
-sigma_s: for recursive filter (RF) [4]
-sigma_r: for recursive filter (RF) [4]
-iter: for recursive filter (RF) [4]
+- M_half: half size of large window M
+- N_half: half size of large window N 
+- epsil: epsilon for FastGuidedFilter [3] 
+- downSize: downsize factor s for FastGuidedFilter [3]
+- sigma_s: for recursive filter (RF) [4]
+- sigma_r: for recursive filter (RF) [4]
+- iter: for recursive filter (RF) [4]
 
 ## Input and Output
-Input: input image 1                (e.g., 'img1.png')
-       input image 2                (e.g., 'img2.png')
-Output: warped image from image 2	(e.g., 'warp2.png')
-        flow result             	(e.g., 'flow.png')
+- Input: input image 1                (e.g., 'img1.png')
+-        input image 2                (e.g., 'img2.png')
+- Output: warped image from image 2	(e.g., 'warp2.png')
+-         flow result             	(e.g., 'flow.png')
   
 # Notes
 
