@@ -4,7 +4,7 @@
 >
 > Contributed by Seungryong Kim (srkim89@yonsei.ac.kr).
 
-This code is written in MATLAB, and implements the DASC descriptor [[website](https://github.com/seungryong/DASC/)]. 
+This code is written in MATLAB, and implements the DASC descriptor [[project website](https://seungryong.github.io/DASC/)]. 
 
 ## Usage
 1) mex mexDASC.cpp
