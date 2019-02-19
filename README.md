@@ -6,7 +6,7 @@
 
 This code is written in MATLAB, and implements the DASC descriptor [[project website](https://seungryong.github.io/DASC/)]. 
 
-## Usage ##
+## Usage
 1) mex mexDASC.cpp
 2) setup SIFTflow code [2]
 3) start main.m
