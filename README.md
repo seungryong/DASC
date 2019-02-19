@@ -6,12 +6,12 @@
 
 This code is written in MATLAB, and implements the DASC descriptor [[project website](https://seungryong.github.io/DASC/)]. 
 
-## Usage
+### Usage ###
 1) mex mexDASC.cpp
 2) setup SIFTflow code [2]
 3) start main.m
 
-## Parameters
+### Parameters ###
 - M_half: half size of large window M
 - N_half: half size of large window N 
 - epsil: epsilon for FastGuidedFilter [3] 
@@ -20,13 +20,13 @@ This code is written in MATLAB, and implements the DASC descriptor [[project web
 - sigma_r: for recursive filter (RF) [4]
 - iter: for recursive filter (RF) [4]
 
-## Input and Output
+### Input and Output ###
 - Input: input image 1                (e.g., 'img1.png'),
          input image 2                (e.g., 'img2.png')
 - Output: warped image from image 2	(e.g., 'warp2.png'),
           flow result             	(e.g., 'flow.png')
   
-# Notes
+### Notes ###
 
   - The code is provided for academic use only. Use of the code in any commercial or industrial related activities is prohibited. 
   - If you use our code, please cite the paper. 
@@ -40,7 +40,7 @@ year = {2015}
 }
 ```
 
-# References
+### References ###
 
 [1] S. Kim, D. Min, B. Ham, S. Ryu, M. N. Do., and K. Sohn, DASC: Dense Adaptive Self-Correlation Descriptor for Multi-modal and Multi-spectral Correspondence, In Proc. of CVPR, 2015.
 
